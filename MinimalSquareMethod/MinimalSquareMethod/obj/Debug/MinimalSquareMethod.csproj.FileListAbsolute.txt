@@ -1,0 +1,6 @@
+C:\Users\Ришат\Desktop\Папка\C#\MinimalSquareMethod\MinimalSquareMethod\bin\Debug\MinimalSquareMethod.exe.config
+C:\Users\Ришат\Desktop\Папка\C#\MinimalSquareMethod\MinimalSquareMethod\bin\Debug\MinimalSquareMethod.exe
+C:\Users\Ришат\Desktop\Папка\C#\MinimalSquareMethod\MinimalSquareMethod\bin\Debug\MinimalSquareMethod.pdb
+C:\Users\Ришат\Desktop\Папка\C#\MinimalSquareMethod\MinimalSquareMethod\obj\Debug\MinimalSquareMethod.csprojResolveAssemblyReference.cache
+C:\Users\Ришат\Desktop\Папка\C#\MinimalSquareMethod\MinimalSquareMethod\obj\Debug\MinimalSquareMethod.exe
+C:\Users\Ришат\Desktop\Папка\C#\MinimalSquareMethod\MinimalSquareMethod\obj\Debug\MinimalSquareMethod.pdb
