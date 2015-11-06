@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace WindowsFormsApplication1
 {
-    public class Threads
+    public class Threads /// класс для создания дополнительных потоков
     {
         private ChangeUI _ui;
         private List<Thread> _theads;
@@ -34,12 +34,9 @@ namespace WindowsFormsApplication1
             }
             _theads.Clear();
         }
-
-        private void Output(Mat matrix, Image<Gray, byte> image)
+        public void Output()
         {
-
+            //
         }
-
-
     }
 }

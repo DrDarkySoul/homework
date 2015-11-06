@@ -18,14 +18,14 @@ using Emgu.CV.Structure;
 namespace WindowsFormsApplication1
 {
     public delegate void ChangeUI(Mat matrix);
-    public delegate void ChangeUI(Image<Gray,byte> image);
+    public delegate void ChangeUI_(Image<Gray,byte> image);  //пытаюсь выводить в новом потоке изображение  в imagebox чтобы не было задержек в связи с обработко изображения
 
 
     public partial class Form1 : Form
     {
         private Capture _capture = null;        //берет картинку из потока вебки как изображение
         private bool _captureInProgress;        //проверяет идет ли поток
-        private bool isDetected = false;
+        private bool isDetected = false;        // будет проверять есть ли изображение метки
 
         private Gray red_color_min = new Gray();        //для разбиения изображения по цветам
         private Gray red_color_max = new Gray();
@@ -35,7 +35,7 @@ namespace WindowsFormsApplication1
         private Gray green_color_max = new Gray();
 
         private int surrounding = 25;
-        private int count_frames = 0;
+     //   private int count_frames = 0;               // количество кадров или точек в движении
 
 
         public Form1()
@@ -207,7 +207,7 @@ namespace WindowsFormsApplication1
             trackBarRed_Scroll(sender, e);
         }
 
-        private void textBoxRed_TextChanged(object sender, EventArgs e)
+        private void textBoxRed_TextChanged(object sender, EventArgs e) //<------не забудь написать исключения
         {
             surrounding = (int)(int.Parse(textBoxRed.Text) / 2);
             trackBarRed.Minimum = surrounding;
