@@ -46,6 +46,8 @@
             this.textBoxRed = new System.Windows.Forms.TextBox();
             this.textBoxGreen = new System.Windows.Forms.TextBox();
             this.textBoxBlue = new System.Windows.Forms.TextBox();
+            this.labelFunc = new System.Windows.Forms.Label();
+            this.labelType = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imageBoxColor)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.moutionImageBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBarRed)).BeginInit();
@@ -154,7 +156,7 @@
             // labelDebagLog
             // 
             this.labelDebagLog.AutoSize = true;
-            this.labelDebagLog.Location = new System.Drawing.Point(12, 647);
+            this.labelDebagLog.Location = new System.Drawing.Point(9, 647);
             this.labelDebagLog.Name = "labelDebagLog";
             this.labelDebagLog.Size = new System.Drawing.Size(59, 13);
             this.labelDebagLog.TabIndex = 12;
@@ -223,11 +225,31 @@
             this.textBoxBlue.Text = "50";
             this.textBoxBlue.TextChanged += new System.EventHandler(this.textBoxBlue_TextChanged);
             // 
+            // labelFunc
+            // 
+            this.labelFunc.AutoSize = true;
+            this.labelFunc.Location = new System.Drawing.Point(9, 634);
+            this.labelFunc.Name = "labelFunc";
+            this.labelFunc.Size = new System.Drawing.Size(34, 13);
+            this.labelFunc.TabIndex = 19;
+            this.labelFunc.Text = "AX+B";
+            // 
+            // labelType
+            // 
+            this.labelType.AutoSize = true;
+            this.labelType.Location = new System.Drawing.Point(9, 618);
+            this.labelType.Name = "labelType";
+            this.labelType.Size = new System.Drawing.Size(62, 13);
+            this.labelType.TabIndex = 20;
+            this.labelType.Text = "Type of line";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1225, 663);
+            this.Controls.Add(this.labelType);
+            this.Controls.Add(this.labelFunc);
             this.Controls.Add(this.textBoxBlue);
             this.Controls.Add(this.textBoxGreen);
             this.Controls.Add(this.textBoxRed);
@@ -276,6 +298,8 @@
         private System.Windows.Forms.TextBox textBoxRed;
         private System.Windows.Forms.TextBox textBoxGreen;
         private System.Windows.Forms.TextBox textBoxBlue;
+        private System.Windows.Forms.Label labelFunc;
+        private System.Windows.Forms.Label labelType;
 
     }
 }
