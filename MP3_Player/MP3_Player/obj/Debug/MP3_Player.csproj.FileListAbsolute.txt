@@ -7,3 +7,6 @@ C:\Users\Ришат\Desktop\Папка\C#\MP3_Player\MP3_Player\obj\Debug\MP3_Pl
 C:\Users\Ришат\Desktop\Папка\C#\MP3_Player\MP3_Player\obj\Debug\MP3_Player.csproj.GenerateResource.Cache
 C:\Users\Ришат\Desktop\Папка\C#\MP3_Player\MP3_Player\obj\Debug\MP3_Player.exe
 C:\Users\Ришат\Desktop\Папка\C#\MP3_Player\MP3_Player\obj\Debug\MP3_Player.pdb
+C:\Users\Ришат\Desktop\Папка\Git\homework\homework\MP3_Player\MP3_Player\bin\Debug\MP3_Player.exe.config
+C:\Users\Ришат\Desktop\Папка\Git\homework\homework\MP3_Player\MP3_Player\obj\Debug\MP3_Player.exe
+C:\Users\Ришат\Desktop\Папка\Git\homework\homework\MP3_Player\MP3_Player\obj\Debug\MP3_Player.pdb
