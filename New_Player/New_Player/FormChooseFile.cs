@@ -28,16 +28,19 @@ namespace New_Player
             dialog.Multiselect = true;
             if (dialog.ShowDialog() == DialogResult.OK)
             {
-                strURL = dialog.FileNames.ToList<String>();
-                foreach(String str in strURL)
+                if (dialog.FileNames != null)
                 {
-                    listBoxPlaylist.Items.Add(str);
+                    strURL = dialog.FileNames.ToList<String>();
+                    foreach (String str in strURL)
+                    {
+                        listBoxPlaylist.Items.Add(str);
+                    }
+                    mediaPlayer.Show();
+                    labelName.Text = listBoxPlaylist.Items[0].ToString();
+                    mediaPlayer.windowsMediaPlayer.URL = listBoxPlaylist.Items[0].ToString();
+                    mediaPlayer.windowsMediaPlayer.Ctlcontrols.play();
                 }
-            }
-            mediaPlayer.Show();
-            labelName.Text = listBoxPlaylist.Items[0].ToString();
-            mediaPlayer.windowsMediaPlayer.URL = listBoxPlaylist.Items[0].ToString();
-            mediaPlayer.windowsMediaPlayer.Ctlcontrols.play();  
+            }      
         }
 
         private void listBoxPlaylist_MouseClick(object sender, MouseEventArgs e)
