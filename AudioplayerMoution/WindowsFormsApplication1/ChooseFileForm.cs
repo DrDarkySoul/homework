@@ -32,8 +32,6 @@ namespace WindowsFormsApplication1
             dialog.FilterIndex = 1;
             dialog.Multiselect = true;
 
-
-
             if (dialog.ShowDialog() == DialogResult.OK)
             {
                 if (dialog.FileNames != null)

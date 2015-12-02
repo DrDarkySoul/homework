@@ -78,6 +78,7 @@
             // moutionImageBox
             // 
             this.moutionImageBox.Location = new System.Drawing.Point(618, 12);
+            this.moutionImageBox.MaximumSize = new System.Drawing.Size(600, 450);
             this.moutionImageBox.Name = "moutionImageBox";
             this.moutionImageBox.Size = new System.Drawing.Size(600, 450);
             this.moutionImageBox.TabIndex = 2;
@@ -265,7 +266,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1398, 663);
+            this.ClientSize = new System.Drawing.Size(1399, 666);
             this.Controls.Add(this.listBoxCoordinatesY);
             this.Controls.Add(this.listBoxCoordinatesX);
             this.Controls.Add(this.labelType);
@@ -287,6 +288,8 @@
             this.Controls.Add(this.moutionImageBox);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.imageBoxColor);
+            this.MaximumSize = new System.Drawing.Size(1415, 705);
+            this.MinimumSize = new System.Drawing.Size(1415, 705);
             this.Name = "MainForm";
             this.Text = "Камера";
             ((System.ComponentModel.ISupportInitialize)(this.imageBoxColor)).EndInit();
