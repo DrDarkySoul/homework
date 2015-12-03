@@ -35,6 +35,9 @@
             // 
             // listBoxPlaylist
             // 
+            this.listBoxPlaylist.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.listBoxPlaylist.FormattingEnabled = true;
             this.listBoxPlaylist.Location = new System.Drawing.Point(12, 33);
             this.listBoxPlaylist.Name = "listBoxPlaylist";
@@ -43,6 +46,8 @@
             // 
             // buttonBrowse
             // 
+            this.buttonBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonBrowse.Location = new System.Drawing.Point(257, 3);
             this.buttonBrowse.Name = "buttonBrowse";
             this.buttonBrowse.Size = new System.Drawing.Size(70, 24);
@@ -68,7 +73,7 @@
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.buttonBrowse);
             this.Controls.Add(this.listBoxPlaylist);
-            this.MaximumSize = new System.Drawing.Size(355, 425);
+            this.MaximumSize = new System.Drawing.Size(700, 425);
             this.MinimumSize = new System.Drawing.Size(355, 425);
             this.Name = "FormChooseFile";
             this.Text = "ChooseFileForm";
